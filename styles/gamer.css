@@ -80,7 +80,8 @@ nav > ul a{
 .cards-container{
     display: flex;
     gap: 24px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 40px 100px;
 }
 
 .cards-container .card-desc{
@@ -95,4 +96,22 @@ nav > ul a{
 
 .cards-container img{
     width: 100%;
+}
+
+/* media queries */
+@media screen and (max-width: 576px) {
+    nav,
+    .nav-right,
+    .cards-container{
+        flex-direction: column;
+    }
+    nav{
+        margin: 20px;
+    }
+    .cards-container{
+        padding: 30px;
+    }
+    .cards-container .card{
+        max-width: 100%;
+    }
 }
