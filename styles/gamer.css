@@ -6,6 +6,7 @@ body{
 
 :root{
     --primary-color: #FF42A5;
+    --background-color-light: #ff42a508;
 }
 
 .hide{
@@ -113,7 +114,7 @@ nav > ul a{
     flex-wrap: wrap;
     text-align: center;
     padding: 40px 0px;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background-color: var(--background-color-light);
 }
 
 .button-card{
