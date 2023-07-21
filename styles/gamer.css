@@ -8,6 +8,10 @@ body{
     --primary-color: #FF42A5;
 }
 
+.hide{
+    display: none;
+}
+
 /* shared */
 .text-primary{
     color: var(--primary-color);
@@ -97,6 +101,25 @@ nav > ul a{
 
 .cards-container img{
     width: 100%;
+}
+
+
+/* button links */
+.button-links-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 427p;
+}
+
+.button-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* width: 300px; */
 }
 
 /* media queries */
