@@ -19,7 +19,6 @@ body{
 }
 
 .section-title{
-    color: #0B0223;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
@@ -79,6 +78,16 @@ nav > ul a{
     padding: 5px;
     line-height: 1;
     background: rgba(11, 2, 35, 0.10);
+}
+
+/* we are gamers section */
+.we-are-gamer{
+    display: flex;
+    background-color: var(--background-color-light);
+}
+
+.we-are-gamer img{
+    width: 750px;
 }
 
 /* online games section */
