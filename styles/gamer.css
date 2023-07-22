@@ -101,6 +101,8 @@ nav > ul a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
 }
 
 #play-like-goat{
