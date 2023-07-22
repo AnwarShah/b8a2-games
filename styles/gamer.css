@@ -220,6 +220,9 @@ nav > ul a{
         flex-direction: column;
         align-items: center;
     }
+    .play-like-the-goat{
+        flex-direction: column-reverse;
+    }
     .we-are-gamer{
         padding: 20px;
     }
@@ -232,7 +235,11 @@ nav > ul a{
     .we-are-gamer-content > .button-div{
         margin: 20px auto;
     }
-    .we-are-gamer img{
+    .play-like-the-goat{
+        background-position: bottom;
+    }
+    .we-are-gamer img,
+    .play-like-the-goat > img{
         width: 100%;
     }
     nav{
@@ -250,13 +257,20 @@ nav > ul a{
         flex-direction: column;
         align-items: center;
     }
+    .play-like-the-goat{
+        flex-direction: column-reverse;
+    }
+    .play-like-the-goat{
+        background-position: bottom;
+    }
     .we-are-gamer{
         padding: 40px;
     }
     .we-are-gamer-content > .button-div{
         margin: 40px auto;
     }
-    .we-are-gamer img{
+    .we-are-gamer img,
+    .play-like-the-goat > img{
         width: 100%;
     }
     .we-are-gamer-content > .section-title, 
