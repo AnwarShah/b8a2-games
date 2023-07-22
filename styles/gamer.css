@@ -100,10 +100,9 @@ nav > ul a{
 
 .we-are-gamer-content{
     max-width: 510px;
-    text-align: right;
 }
 
-.we-are-gamer-content > .section-title, .section-description, .extra-description{
+.we-are-gamer-content > .section-title, .section-description, .extra-description, .button-div{
     text-align: right;
 }
 
@@ -169,9 +168,22 @@ nav > ul a{
 @media screen and (max-width: 576px) {
     nav,
     .nav-right,
-    .cards-container{
+    .cards-container,
+    .we-are-gamer{
         flex-direction: column;
         align-items: center;
+    }
+    .we-are-gamer{
+        padding: 20px;
+    }
+    .we-are-gamer-content > .section-title, .section-description, .extra-description, .button-div{
+        text-align: center;
+    }
+    .we-are-gamer-content > .button-div{
+        margin: 20px auto;
+    }
+    .we-are-gamer img{
+        width: 100%;
     }
     nav{
         margin: 20px;
@@ -183,10 +195,23 @@ nav > ul a{
 @media screen and (min-width: 576px) and (max-width: 992px) {
     nav,
     .nav-right, 
-    .cards-container{
+    .cards-container,
+    .we-are-gamer{
         flex-direction: column;
         align-items: center;
     }
+    .we-are-gamer{
+        padding: 40px;
+    }
+    .we-are-gamer-content > .button-div{
+        margin: 40px auto;
+    }
+    .we-are-gamer img{
+        width: 100%;
+    }
+    .we-are-gamer-content > .section-title, .section-description, .extra-description, .button-div{
+        text-align: center;
+    }   
     nav{
         margin: 20px;
     }
