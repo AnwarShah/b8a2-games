@@ -100,8 +100,37 @@ nav > ul a{
 .play-like-the-goat{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px 240px;
+    justify-content: space-evenly;
+}
+
+#play-like-goat{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#goat{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-with-icon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
 }
 
 /* we are gamers section */
