@@ -29,6 +29,11 @@ body{
     text-transform: uppercase;
 }
 
+/* use this button with .btn-primary class */
+.btn-primary-blue{
+    background: #4EC5F7;
+}
+
 .section-title{
     font-size: 3rem;
     font-weight: 700;
@@ -89,6 +94,14 @@ nav > ul a{
     padding: 5px;
     line-height: 1;
     background: rgba(11, 2, 35, 0.10);
+}
+
+/* play-like-the-goat section */
+.play-like-the-goat{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 240px;
 }
 
 /* we are gamers section */
