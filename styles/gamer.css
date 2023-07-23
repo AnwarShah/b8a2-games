@@ -192,6 +192,24 @@ nav > ul a{
     width: 100%;
 }
 
+/* play instantly section */
+.play-instantly{
+    background-image: url('../images/rectangle66.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 240px 40px 400px;
+}
+
+.play-instantly .content-container{
+    width: 350px;
+}
+
+.play-instantly > img{
+    z-index: -1;
+}
 
 /* button links */
 .button-links-container{
