@@ -245,12 +245,13 @@ nav > ul a{
     }
     .play-instantly{
         background-position: bottom left;
-        background-size: 35%;
+        background-size: 65%;
         margin: 40px 100px;
         padding: 40px 20px;
     }
     .play-instantly > img{
         width: 400px;
+        right: auto;
     }
     .play-like-the-goat{
         flex-direction: column-reverse;
@@ -281,7 +282,7 @@ nav > ul a{
 }
 
 /* media queries */
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 1024px) {
     nav,
     .nav-right, 
     .cards-container,
@@ -298,6 +299,7 @@ nav > ul a{
     }
     .play-instantly > img{
         width: 600px;
+        right: auto;
     }
     .play-like-the-goat{
         flex-direction: column-reverse;
