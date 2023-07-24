@@ -291,6 +291,12 @@ footer .social-icons{
     margin-top: 50px;
 }
 
+footer .other-links, footer .social-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 footer .terms-links{
     margin-top: 80px;
 }
