@@ -224,7 +224,7 @@ nav > ul a{
     height: 600px;
     flex-shrink: 0;
     color: #FFF;
-    padding: 60px 1000px 10px 240px;
+    padding: 60px 450px 10px 240px;
 }
 
 .careers p,
@@ -303,7 +303,12 @@ nav > ul a{
     nav{
         margin: 20px;
     }
-
+    .careers{
+        padding: 40px;
+    }
+    .careers .vacant-position-container{
+        gap: 20px;
+    }
 }
 
 /* media queries */
@@ -350,5 +355,8 @@ nav > ul a{
     }   
     nav{
         margin: 20px;
+    }
+    .careers{
+        padding: 40px 80px;
     }
 }
