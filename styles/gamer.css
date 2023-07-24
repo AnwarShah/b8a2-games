@@ -242,13 +242,11 @@ nav > ul a{
 /* button links */
 .button-links-container{
     display: flex;
-    height: 300px;
     justify-content: center;
     gap: 30px;
-    width: 100%;
     flex-wrap: wrap;
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 200px;
     background-color: var(--background-color-light);
 }
 
@@ -256,7 +254,13 @@ nav > ul a{
     display: flex;
     align-items: center;
     gap: 15px;
-    /* width: 300px; */
+    height: 80px;
+    padding: 5px;
+}
+
+.button-card:hover{
+    border: 6px solid var(--primary-color);
+    border-radius: 50px;
 }
 
 /* footer section */
