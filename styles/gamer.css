@@ -192,8 +192,46 @@ nav > ul a{
     width: 250px;
 }
 
-.cards-container img{
+.card-image-container > img{
     width: 100%;
+}
+
+.card-image-container{
+    position: relative;
+    width: 100%;
+}
+
+.watch-now-div{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    opacity: 0%;
+    background-color: #3C354F;
+    width: 99%;
+    height: 98%;
+    border: 3px solid var(--primary-color);
+    border-radius: 16px;
+    transition: opacity 0.5s;
+}
+
+.watch-now-div:hover{
+    opacity: 60%;
+}
+
+.play-button{
+    width: 50px;
+    top: 44%;
+    left: 39%;
+    text-align: center;
+    position: relative;
+}
+
+.play-now-button-text{
+    margin: 0;
+    position: relative;
+    top: 47%;
+    left: 37%;
+    font-weight: 800;
 }
 
 /* play instantly section */
